@@ -1,0 +1,129 @@
+/*
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+   background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+*/
+
+
+
+body{
+    color: white;
+    background-color: #17223b;
+    
+}
+a {
+    text-decoration: none;
+    color: #263859;
+}
+.header {
+    background-color: #bd081c;
+    color: white;
+}
+
+.top-bar, .top-bar ul{
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+}
+.title-bar {
+    background-color: #ff6768;
+    font-size: 1.1rem;
+}
+nav a {
+    color: white;
+
+}
+
+.callout {
+    
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    text-align: center;
+}
+.button.primary {
+    background-color: #ff6768;
+    color: white;
+    font-weight: 600;
+}
+.button.primary:hover {
+    background-color: #263859;
+    color:white;
+    font-weight: 600;
+}
+.button.secondary {
+    background-color: #6b778d;
+    color: white;
+    font-weight: 600;
+}
+.button.secondary:hover {
+    background-color: #263859;
+    color: white;
+    font-weight: 600;
+}
+h1, h2,h3, h4, h5, h6 {
+    color: #263859;
+    text-shadow: 0 10px 10px white;
+}
+p {
+    color: #6b778d;
+}
+.fas{
+    color: #ff6768;
+}
+.accordion-title{
+    background-color: #6b778d;
+    color: white;
+    font-weight: 500;
+}
+.accordion-title:hover, .accordin-title:focus{
+    color: #263859;
+    font-weight: 500;
+}
+.orbit .orbit-bullets {
+margin-bottom: .6rem;   
+}
+.orbit-image{
+    min-height: 350px;
+}
+
+.card{
+    background-color: #6b778d;
+    padding: 10px;
+    margin: 0;
+}
+.card p{
+     color: white;
+}
+footer {
+    background-color: #17223b;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+ 
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+footer li{
+    list-style-type: none;
+    
+}
